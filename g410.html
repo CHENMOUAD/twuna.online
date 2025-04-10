@@ -746,13 +746,13 @@
                 progressCircle.style.strokeDashoffset = '120'; // 60%
                 progressPercentage.textContent = '60%';
                 item2.classList.add('active');
-            }, 600);
+            }, 100);
 
             setTimeout(() => {
                 progressCircle.style.strokeDashoffset = '30'; // 90%
                 progressPercentage.textContent = '90%';
                 item3.classList.add('active');
-            }, 1000);
+            }, 100);
 
             // Complete the analysis
             setTimeout(() => {
@@ -762,7 +762,7 @@
                 setTimeout(() => {
                     completeMessage.style.display = 'block';
                 }, 200);
-            }, 1500);
+            }, 100);
         }
 
         function closeModal() {
